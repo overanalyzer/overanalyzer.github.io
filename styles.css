@@ -47,3 +47,39 @@ a:hover {
 p {
     margin-bottom: 1.5rem;
 }
+/* Blog post specific styles */
+.subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+main h1 {
+    font-size: 2.4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+main h2 {
+    font-size: 1.8rem;
+    font-style: italic;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+main p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+/* Back link styling */
+footer a {
+    font-size: 1rem;
+    color: #111;
+    text-decoration: none;
+    border-bottom: 1px solid #111;
+}
+
+footer a:hover {
+    border-bottom: none;
+}
