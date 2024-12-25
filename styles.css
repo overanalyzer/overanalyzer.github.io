@@ -2,7 +2,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 4rem 2rem;
-    font-family: Garamond, "Garamond Premier Pro", "EB Garamond", Georgia, serif;
+    font-family: "Computer Modern", "Latin Modern", "CMU Serif", Georgia, Times, serif;
     line-height: 1.6;
     background-color: #fffff8;
     color: #111;
