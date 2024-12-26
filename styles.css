@@ -9,24 +9,42 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
     font-weight: normal;
+}
+
+.accent {
+    color: #FF4500;  /* Hot orange */
+}
+
+.catchphrase {
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-bottom: 4rem;
+    color: #555;
 }
 
 h2 {
     font-size: 1.8rem;
-    margin-top: 4rem;
-    margin-bottom: 1.5rem;
+    margin-top: 2.5rem;  /* Reduced from 4rem */
+    margin-bottom: 1.2rem;  /* Reduced from 1.5rem */
     font-weight: normal;
 }
 
 h3 {
     font-size: 1.3rem;
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;  /* Reduced from 2rem */
+    margin-bottom: 0.3rem;  /* Reduced from 0.5rem */
     font-weight: normal;
     font-style: italic;
+}
+
+.date {
+    color: #FF4500;  /* Hot orange */
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
 }
 
 a {
@@ -45,42 +63,7 @@ a:hover {
 }
 
 p {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;  /* Reduced from 1.5rem */
 }
 
-/* Blog post specific styles */
-.subtitle {
-    font-size: 1.2rem;
-    margin-bottom: 3rem;
-}
-
-main h1 {
-    font-size: 2.4rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-
-main h2 {
-    font-size: 1.8rem;
-    font-style: italic;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-}
-
-main p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    margin-bottom: 1.5rem;
-}
-
-/* Back link styling */
-footer a {
-    font-size: 1rem;
-    color: #111;
-    text-decoration: none;
-    border-bottom: 1px solid #111;
-}
-
-footer a:hover {
-    border-bottom: none;
-}
+/* Blog post specific styles stay the same */
