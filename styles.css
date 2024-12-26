@@ -23,15 +23,15 @@ h1 {
     font-size: 1rem;
     font-style: italic;
     margin-top: 0;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;  /* Reduced from 4rem */
     color: #555;
 }
 
 h2 {
     font-size: 1.6rem;
     margin-top: 2.5rem;
-    margin-bottom: 0.3rem;
-    font-weight: 300;  /* Thinner font */
+    margin-bottom: 0.1rem;  /* Reduced from 0.3rem */
+    font-weight: 300;
     font-style: italic;
 }
 
@@ -85,28 +85,6 @@ p {
     margin-left: 0.3rem;
 }
 
-
-p {
-    margin-bottom: 1.2rem;
-}
-
-.folder-description {
-    font-size: 1rem;
-    color: #555;
-    margin-bottom: 1.5rem;
-    line-height: 1.4;
-}
-
-.new-tag {
-    font-size: 0.7rem;
-    color: #FF4500;  /* Hot orange */
-    font-style: normal;
-    font-weight: bold;
-    vertical-align: super;
-    margin-left: 0.3rem;
-}
-
-/* Add these new styles here */
 .post-list {
     margin-top: 2rem;
 }
