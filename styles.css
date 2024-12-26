@@ -10,7 +10,7 @@ body {
 
 h1 {
     font-size: 3.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.2rem;
     font-weight: normal;
 }
 
@@ -19,8 +19,9 @@ h1 {
 }
 
 .catchphrase {
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-style: italic;
+    margin-top: 0;
     margin-bottom: 4rem;
     color: #555;
 }
