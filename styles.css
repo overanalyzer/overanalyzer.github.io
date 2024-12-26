@@ -23,7 +23,7 @@ h1 {
     font-size: 1rem;
     font-style: italic;
     margin-top: 0;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     color: #555;
 }
 
@@ -31,8 +31,7 @@ h2 {
     font-size: 1.6rem;
     margin-top: 2.5rem;
     margin-bottom: 0.3rem;
-    font-weight: 300;  /* Thinner font */
-    font-style: italic;
+    font-weight: 200; /* Thinner font */
 }
 
 h3 {
@@ -40,7 +39,6 @@ h3 {
     margin-top: 1.5rem;
     margin-bottom: 0.3rem;
     font-weight: normal;
-    font-style: italic;
 }
 
 .date {
@@ -54,7 +52,6 @@ a {
     color: #111;
     text-decoration: none;
     border-bottom: 1px solid #111;
-    font-style: italic;
 }
 
 h3 a {
@@ -78,12 +75,19 @@ p {
 
 .new-tag {
     font-size: 0.7rem;
-    color: #FF4500;  /* Hot orange */
+    color: #FF4500; /* Hot orange */
     font-style: normal;
     font-weight: bold;
     vertical-align: super;
     margin-left: 0.3rem;
 }
 
+.post-list {
+    margin-top: 2rem;
+}
+
+.post-description {
+    margin-bottom: 2.5rem;
+}
 
 /* Blog post specific styles stay the same */
