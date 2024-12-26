@@ -16,7 +16,7 @@ h1 {
 }
 
 .accent {
-    color: #FF4500;  /* Hot orange */
+    color: #FF4500; /* Hot orange */
 }
 
 .catchphrase {
@@ -28,22 +28,23 @@ h1 {
 }
 
 h2 {
-    font-size: 1.8rem;
-    margin-top: 2.5rem;  /* Reduced from 4rem */
-    margin-bottom: 1.2rem;  /* Reduced from 1.5rem */
-    font-weight: normal;
+    font-size: 1.6rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.3rem;
+    font-weight: 300;  /* Thinner font */
+    font-style: italic;
 }
 
 h3 {
     font-size: 1.3rem;
-    margin-top: 1.5rem;  /* Reduced from 2rem */
-    margin-bottom: 0.3rem;  /* Reduced from 0.5rem */
+    margin-top: 1.5rem;
+    margin-bottom: 0.3rem;
     font-weight: normal;
     font-style: italic;
 }
 
 .date {
-    color: #FF4500;  /* Hot orange */
+    color: #FF4500; /* Hot orange */
     font-size: 0.9rem;
     margin-bottom: 0.5rem;
     margin-top: 0;
@@ -65,7 +66,23 @@ a:hover {
 }
 
 p {
-    margin-bottom: 1.2rem;  /* Reduced from 1.5rem */
+    margin-bottom: 1.2rem;
+}
+
+.folder-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+.new-tag {
+    font-size: 0.7rem;
+    color: #FF4500;  /* Hot orange */
+    font-style: normal;
+    font-weight: bold;
+    vertical-align: super;
+    margin-left: 0.3rem;
 }
 
 /* Blog post specific styles stay the same */
