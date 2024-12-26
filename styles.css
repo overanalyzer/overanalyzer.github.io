@@ -31,7 +31,7 @@ h2 {
     font-size: 1.6rem;
     margin-top: 2.5rem;
     margin-bottom: 0.3rem;
-    font-weight: 200;  /* Thinner font */
+    font-weight: 200; /* Thinner font */
 }
 
 h3 {
@@ -75,35 +75,13 @@ p {
 
 .new-tag {
     font-size: 0.7rem;
-    color: #FF4500;  /* Hot orange */
+    color: #FF4500; /* Hot orange */
     font-style: normal;
     font-weight: bold;
     vertical-align: super;
     margin-left: 0.3rem;
 }
 
-
-p {
-    margin-bottom: 1.2rem;
-}
-
-.folder-description {
-    font-size: 1rem;
-    color: #555;
-    margin-bottom: 1.5rem;
-    line-height: 1.4;
-}
-
-.new-tag {
-    font-size: 0.7rem;
-    color: #FF4500;  /* Hot orange */
-    font-style: normal;
-    font-weight: bold;
-    vertical-align: super;
-    margin-left: 0.3rem;
-}
-
-/* Add these new styles here */
 .post-list {
     margin-top: 2rem;
 }
