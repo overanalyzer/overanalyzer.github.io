@@ -1,7 +1,7 @@
 body {
     max-width: 800px;
     margin: 0 auto;
-    padding: 2rem 2rem;  /* Reduced from 4rem */
+    padding: 2rem 2rem;
     font-family: "Computer Modern", "Latin Modern", "CMU Serif", Georgia, Times, serif;
     line-height: 1.6;
     background-color: #fffff8;
@@ -11,7 +11,7 @@ body {
 h1 {
     font-size: 3.5rem;
     margin-top: 0;
-    margin-bottom: 0.1rem;  /* Reduced from 0.2rem */
+    margin-bottom: 0.1rem;
     font-weight: normal;
 }
 
@@ -23,14 +23,14 @@ h1 {
     font-size: 1rem;
     font-style: italic;
     margin-top: 0;
-    margin-bottom: 1.5rem;  /* Reduced from 2rem */
+    margin-bottom: 1.5rem;
     color: #555;
 }
 
 h2 {
     font-size: 1.6rem;
-    margin-top: 1.5rem;  /* Reduced from 2.5rem */
-    margin-bottom: 0.2rem;  /* Reduced from 0.3rem */
+    margin-top: 1.5rem;
+    margin-bottom: 0;  /* Changed from 0.2rem */
     font-weight: 200;
 }
 
@@ -69,7 +69,8 @@ p {
 .folder-description {
     font-size: 1rem;
     color: #555;
-    margin-bottom: 1rem;  /* Reduced from 1.5rem */
+    margin-top: 0;  /* Added to ensure no space after folder title */
+    margin-bottom: 1rem;
     line-height: 1.4;
 }
 
